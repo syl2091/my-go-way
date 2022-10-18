@@ -1,3 +1,3 @@
-module gee
+module lege
 
 go 1.19
