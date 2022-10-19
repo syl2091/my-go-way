@@ -6,6 +6,9 @@ type Value interface {
 	Len() int
 }
 
+type Value2 struct {
+}
+
 type Cache struct {
 	maxBytes int64
 	nbytes   int64
