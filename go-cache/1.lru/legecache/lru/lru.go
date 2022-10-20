@@ -6,7 +6,7 @@ type Value interface {
 	Len() int
 }
 
-type Value2 struct {
+type Value3 struct {
 }
 
 type Cache struct {
