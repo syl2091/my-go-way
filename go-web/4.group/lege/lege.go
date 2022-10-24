@@ -5,7 +5,7 @@ import (
 	"net/http"
 )
 
-// HandlerFunc defines the request handler used by gee
+// HandlerFunc defines the request handler used by lege
 type HandlerFunc func(*Context)
 
 // Engine implement the interface of ServeHTTP
@@ -22,7 +22,7 @@ type RouterGroup struct {
 	engine      *Engine
 }
 
-// New is the constructor of gee.Engine
+// New is the constructor of lege.Engine
 func New() *Engine {
 	engine := &Engine{router: newRouter()}
 	engine.RouterGroup = &RouterGroup{engine: engine}

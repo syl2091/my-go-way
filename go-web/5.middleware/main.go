@@ -20,7 +20,7 @@ $ curl http://localhost:9999/v2/hello/legektutu
 */
 
 import (
-	lege "gee"
+	lege "lege"
 	"log"
 	"net/http"
 	"time"
